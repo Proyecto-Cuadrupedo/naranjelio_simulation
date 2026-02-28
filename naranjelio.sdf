@@ -18,7 +18,8 @@
         <geometry>
           <mesh>
             <scale>0.001 0.001 0.001</scale>
-            <uri>file:///home/devuser/sinfonia/Documents/repos_varios/naranjelio_ws/install/naranjelio_description/share/naranjelio_description/meshes/base_link.stl</uri>
+            <uri>
+              /meshes/base_link.stl</uri>
           </mesh>
         </geometry>
       </collision>
@@ -27,7 +28,8 @@
         <geometry>
           <mesh>
             <scale>0.001 0.001 0.001</scale>
-            <uri>file:///home/devuser/sinfonia/Documents/repos_varios/naranjelio_ws/install/naranjelio_description/share/naranjelio_description/meshes/base_link.stl</uri>
+            <uri>
+              /meshes/base_link.stl</uri>
           </mesh>
         </geometry>
         <material>
@@ -37,7 +39,8 @@
       </visual>
     </link>
     <joint name='HipBackDer' type='revolute'>
-      <pose relative_to='base_link'>-0.068594000000000002 0.13270000000000001 0.072321999999999997 0 0 0</pose>
+      <pose relative_to='base_link'>-0.068594000000000002 0.13270000000000001 0.072321999999999997 0
+        0 0</pose>
       <parent>base_link</parent>
       <child>BackDer_1</child>
       <axis>
@@ -73,12 +76,13 @@
         <geometry>
           <mesh>
             <scale>0.001 0.001 0.001</scale>
-            <uri>file:///home/devuser/sinfonia/Documents/repos_varios/naranjelio_ws/install/naranjelio_description/share/naranjelio_description/meshes/BackDer_1.stl</uri>
+            <uri>
+              /meshes/BackDer_1.stl</uri>
           </mesh>
         </geometry>
         <surface>
           <contact>
-            <ode/>
+            <ode />
           </contact>
           <friction>
             <ode>
@@ -93,7 +97,8 @@
         <geometry>
           <mesh>
             <scale>0.001 0.001 0.001</scale>
-            <uri>file:///home/devuser/sinfonia/Documents/repos_varios/naranjelio_ws/install/naranjelio_description/share/naranjelio_description/meshes/BackDer_1.stl</uri>
+            <uri>
+              /meshes/BackDer_1.stl</uri>
           </mesh>
         </geometry>
         <material>
@@ -143,12 +148,13 @@
         <geometry>
           <mesh>
             <scale>0.001 0.001 0.001</scale>
-            <uri>file:///home/devuser/sinfonia/Documents/repos_varios/naranjelio_ws/install/naranjelio_description/share/naranjelio_description/meshes/FemurBackDer_1.stl</uri>
+            <uri>
+              /meshes/FemurBackDer_1.stl</uri>
           </mesh>
         </geometry>
         <surface>
           <contact>
-            <ode/>
+            <ode />
           </contact>
           <friction>
             <ode>
@@ -163,7 +169,8 @@
         <geometry>
           <mesh>
             <scale>0.001 0.001 0.001</scale>
-            <uri>file:///home/devuser/sinfonia/Documents/repos_varios/naranjelio_ws/install/naranjelio_description/share/naranjelio_description/meshes/FemurBackDer_1.stl</uri>
+            <uri>
+              /meshes/FemurBackDer_1.stl</uri>
           </mesh>
         </geometry>
         <material>
@@ -177,7 +184,8 @@
       </visual>
     </link>
     <joint name='FemurTibiaBackDer' type='revolute'>
-      <pose relative_to='FemurBackDer_1'>-0.0088999999999999999 -0.076375999999999999 -0.037307 0 0 0</pose>
+      <pose relative_to='FemurBackDer_1'>-0.0088999999999999999 -0.076375999999999999 -0.037307 0 0
+        0</pose>
       <parent>FemurBackDer_1</parent>
       <child>TibiaLowBackDer_1</child>
       <axis>
@@ -213,12 +221,13 @@
         <geometry>
           <mesh>
             <scale>0.001 0.001 0.001</scale>
-            <uri>file:///home/devuser/sinfonia/Documents/repos_varios/naranjelio_ws/install/naranjelio_description/share/naranjelio_description/meshes/TibiaLowBackDer_1.stl</uri>
+            <uri>
+              /meshes/TibiaLowBackDer_1.stl</uri>
           </mesh>
         </geometry>
         <surface>
           <contact>
-            <ode/>
+            <ode />
           </contact>
           <friction>
             <ode>
@@ -233,7 +242,8 @@
         <geometry>
           <mesh>
             <scale>0.001 0.001 0.001</scale>
-            <uri>file:///home/devuser/sinfonia/Documents/repos_varios/naranjelio_ws/install/naranjelio_description/share/naranjelio_description/meshes/TibiaLowBackDer_1.stl</uri>
+            <uri>
+              /meshes/TibiaLowBackDer_1.stl</uri>
           </mesh>
         </geometry>
         <material>
@@ -247,7 +257,8 @@
       </visual>
     </link>
     <joint name='Revolute 52' type='revolute'>
-      <pose relative_to='TibiaLowBackDer_1'>-0.0054999999999999997 -0.019255000000000001 0.0054070000000000003 0 0 0</pose>
+      <pose relative_to='TibiaLowBackDer_1'>-0.0054999999999999997 -0.019255000000000001
+        0.0054070000000000003 0 0 0</pose>
       <parent>TibiaLowBackDer_1</parent>
       <child>TibiaHighBackDer_1</child>
       <axis>
@@ -283,12 +294,13 @@
         <geometry>
           <mesh>
             <scale>0.001 0.001 0.001</scale>
-            <uri>file:///home/devuser/sinfonia/Documents/repos_varios/naranjelio_ws/install/naranjelio_description/share/naranjelio_description/meshes/TibiaHighBackDer_1.stl</uri>
+            <uri>
+              /meshes/TibiaHighBackDer_1.stl</uri>
           </mesh>
         </geometry>
         <surface>
           <contact>
-            <ode/>
+            <ode />
           </contact>
           <friction>
             <ode>
@@ -303,7 +315,8 @@
         <geometry>
           <mesh>
             <scale>0.001 0.001 0.001</scale>
-            <uri>file:///home/devuser/sinfonia/Documents/repos_varios/naranjelio_ws/install/naranjelio_description/share/naranjelio_description/meshes/TibiaHighBackDer_1.stl</uri>
+            <uri>
+              /meshes/TibiaHighBackDer_1.stl</uri>
           </mesh>
         </geometry>
         <material>
@@ -317,7 +330,8 @@
       </visual>
     </link>
     <joint name='Revolute 51' type='revolute'>
-      <pose relative_to='TibiaHighBackDer_1'>-0.0025000000000000001 0.079874000000000001 0.029071 0 0 0</pose>
+      <pose relative_to='TibiaHighBackDer_1'>-0.0025000000000000001 0.079874000000000001 0.029071 0
+        0 0</pose>
       <parent>TibiaHighBackDer_1</parent>
       <child>PivotTibiaBackDer_1</child>
       <axis>
@@ -340,12 +354,12 @@
         <pose>-0.001692763655314025 0.015756854381915181 0.0027788543819850242 0 0 0</pose>
         <mass>0.00077804272735592956</mass>
         <inertia>
-          <ixx>0</ixx>
-          <ixy>0</ixy>
-          <ixz>0</ixz>
-          <iyy>0</iyy>
-          <iyz>0</iyz>
-          <izz>0</izz>
+          <ixx>1.0e-06</ixx>
+          <ixy>0.0</ixy>
+          <ixz>0.0</ixz>
+          <iyy>1.0e-06</iyy>
+          <iyz>0.0</iyz>
+          <izz>1.0e-06</izz>
         </inertia>
       </inertial>
       <collision name='PivotTibiaBackDer_1_collision'>
@@ -353,12 +367,13 @@
         <geometry>
           <mesh>
             <scale>0.001 0.001 0.001</scale>
-            <uri>file:///home/devuser/sinfonia/Documents/repos_varios/naranjelio_ws/install/naranjelio_description/share/naranjelio_description/meshes/PivotTibiaBackDer_1.stl</uri>
+            <uri>
+              /meshes/PivotTibiaBackDer_1.stl</uri>
           </mesh>
         </geometry>
         <surface>
           <contact>
-            <ode/>
+            <ode />
           </contact>
           <friction>
             <ode>
@@ -373,7 +388,8 @@
         <geometry>
           <mesh>
             <scale>0.001 0.001 0.001</scale>
-            <uri>file:///home/devuser/sinfonia/Documents/repos_varios/naranjelio_ws/install/naranjelio_description/share/naranjelio_description/meshes/PivotTibiaBackDer_1.stl</uri>
+            <uri>
+              /meshes/PivotTibiaBackDer_1.stl</uri>
           </mesh>
         </geometry>
         <material>
@@ -387,7 +403,8 @@
       </visual>
     </link>
     <joint name='HipBackIzq' type='revolute'>
-      <pose relative_to='base_link'>0.067105999999999999 0.13270000000000001 0.072321999999999997 0 0 0</pose>
+      <pose relative_to='base_link'>0.067105999999999999 0.13270000000000001 0.072321999999999997 0
+        0 0</pose>
       <parent>base_link</parent>
       <child>BackIzq_1</child>
       <axis>
@@ -423,12 +440,13 @@
         <geometry>
           <mesh>
             <scale>0.001 0.001 0.001</scale>
-            <uri>file:///home/devuser/sinfonia/Documents/repos_varios/naranjelio_ws/install/naranjelio_description/share/naranjelio_description/meshes/BackIzq_1.stl</uri>
+            <uri>
+              /meshes/BackIzq_1.stl</uri>
           </mesh>
         </geometry>
         <surface>
           <contact>
-            <ode/>
+            <ode />
           </contact>
           <friction>
             <ode>
@@ -443,7 +461,8 @@
         <geometry>
           <mesh>
             <scale>0.001 0.001 0.001</scale>
-            <uri>file:///home/devuser/sinfonia/Documents/repos_varios/naranjelio_ws/install/naranjelio_description/share/naranjelio_description/meshes/BackIzq_1.stl</uri>
+            <uri>
+              /meshes/BackIzq_1.stl</uri>
           </mesh>
         </geometry>
         <material>
@@ -493,12 +512,13 @@
         <geometry>
           <mesh>
             <scale>0.001 0.001 0.001</scale>
-            <uri>file:///home/devuser/sinfonia/Documents/repos_varios/naranjelio_ws/install/naranjelio_description/share/naranjelio_description/meshes/FemurBackIzq_1.stl</uri>
+            <uri>
+              /meshes/FemurBackIzq_1.stl</uri>
           </mesh>
         </geometry>
         <surface>
           <contact>
-            <ode/>
+            <ode />
           </contact>
           <friction>
             <ode>
@@ -513,7 +533,8 @@
         <geometry>
           <mesh>
             <scale>0.001 0.001 0.001</scale>
-            <uri>file:///home/devuser/sinfonia/Documents/repos_varios/naranjelio_ws/install/naranjelio_description/share/naranjelio_description/meshes/FemurBackIzq_1.stl</uri>
+            <uri>
+              /meshes/FemurBackIzq_1.stl</uri>
           </mesh>
         </geometry>
         <material>
@@ -527,7 +548,8 @@
       </visual>
     </link>
     <joint name='FemurTibiaBackIzq' type='revolute'>
-      <pose relative_to='FemurBackIzq_1'>0.0088999999999999999 -0.076393000000000003 -0.037269999999999998 0 0 0</pose>
+      <pose relative_to='FemurBackIzq_1'>0.0088999999999999999 -0.076393000000000003
+        -0.037269999999999998 0 0 0</pose>
       <parent>FemurBackIzq_1</parent>
       <child>TibiaLowBackIzq_1</child>
       <axis>
@@ -563,12 +585,13 @@
         <geometry>
           <mesh>
             <scale>0.001 0.001 0.001</scale>
-            <uri>file:///home/devuser/sinfonia/Documents/repos_varios/naranjelio_ws/install/naranjelio_description/share/naranjelio_description/meshes/TibiaLowBackIzq_1.stl</uri>
+            <uri>
+              /meshes/TibiaLowBackIzq_1.stl</uri>
           </mesh>
         </geometry>
         <surface>
           <contact>
-            <ode/>
+            <ode />
           </contact>
           <friction>
             <ode>
@@ -583,7 +606,8 @@
         <geometry>
           <mesh>
             <scale>0.001 0.001 0.001</scale>
-            <uri>file:///home/devuser/sinfonia/Documents/repos_varios/naranjelio_ws/install/naranjelio_description/share/naranjelio_description/meshes/TibiaLowBackIzq_1.stl</uri>
+            <uri>
+              /meshes/TibiaLowBackIzq_1.stl</uri>
           </mesh>
         </geometry>
         <material>
@@ -597,7 +621,8 @@
       </visual>
     </link>
     <joint name='Revolute 48' type='revolute'>
-      <pose relative_to='TibiaLowBackIzq_1'>0.0054999999999999997 -0.019238000000000002 0.00547 0 0 0</pose>
+      <pose relative_to='TibiaLowBackIzq_1'>0.0054999999999999997 -0.019238000000000002 0.00547 0 0
+        0</pose>
       <parent>TibiaLowBackIzq_1</parent>
       <child>TIbiaHighBackIzq_1</child>
       <axis>
@@ -633,12 +658,13 @@
         <geometry>
           <mesh>
             <scale>0.001 0.001 0.001</scale>
-            <uri>file:///home/devuser/sinfonia/Documents/repos_varios/naranjelio_ws/install/naranjelio_description/share/naranjelio_description/meshes/TIbiaHighBackIzq_1.stl</uri>
+            <uri>
+              /meshes/TIbiaHighBackIzq_1.stl</uri>
           </mesh>
         </geometry>
         <surface>
           <contact>
-            <ode/>
+            <ode />
           </contact>
           <friction>
             <ode>
@@ -653,7 +679,8 @@
         <geometry>
           <mesh>
             <scale>0.001 0.001 0.001</scale>
-            <uri>file:///home/devuser/sinfonia/Documents/repos_varios/naranjelio_ws/install/naranjelio_description/share/naranjelio_description/meshes/TIbiaHighBackIzq_1.stl</uri>
+            <uri>
+              /meshes/TIbiaHighBackIzq_1.stl</uri>
           </mesh>
         </geometry>
         <material>
@@ -667,7 +694,8 @@
       </visual>
     </link>
     <joint name='Revolute 47' type='revolute'>
-      <pose relative_to='TIbiaHighBackIzq_1'>0.0025000000000000001 0.079874000000000001 0.029071 0 0 0</pose>
+      <pose relative_to='TIbiaHighBackIzq_1'>0.0025000000000000001 0.079874000000000001 0.029071 0 0
+        0</pose>
       <parent>TIbiaHighBackIzq_1</parent>
       <child>PivotTibiaBackIzq_1</child>
       <axis>
@@ -690,12 +718,12 @@
         <pose>0.00169215960496609 0.015707613994263792 0.0027701719731016978 0 0 0</pose>
         <mass>0.00077804272735592956</mass>
         <inertia>
-          <ixx>0</ixx>
-          <ixy>0</ixy>
-          <ixz>0</ixz>
-          <iyy>0</iyy>
-          <iyz>0</iyz>
-          <izz>0</izz>
+          <ixx>1.0e-06</ixx>
+          <ixy>0.0</ixy>
+          <ixz>0.0</ixz>
+          <iyy>1.0e-06</iyy>
+          <iyz>0.0</iyz>
+          <izz>1.0e-06</izz>
         </inertia>
       </inertial>
       <collision name='PivotTibiaBackIzq_1_collision'>
@@ -703,12 +731,13 @@
         <geometry>
           <mesh>
             <scale>0.001 0.001 0.001</scale>
-            <uri>file:///home/devuser/sinfonia/Documents/repos_varios/naranjelio_ws/install/naranjelio_description/share/naranjelio_description/meshes/PivotTibiaBackIzq_1.stl</uri>
+            <uri>
+              /meshes/PivotTibiaBackIzq_1.stl</uri>
           </mesh>
         </geometry>
         <surface>
           <contact>
-            <ode/>
+            <ode />
           </contact>
           <friction>
             <ode>
@@ -723,7 +752,8 @@
         <geometry>
           <mesh>
             <scale>0.001 0.001 0.001</scale>
-            <uri>file:///home/devuser/sinfonia/Documents/repos_varios/naranjelio_ws/install/naranjelio_description/share/naranjelio_description/meshes/PivotTibiaBackIzq_1.stl</uri>
+            <uri>
+              /meshes/PivotTibiaBackIzq_1.stl</uri>
           </mesh>
         </geometry>
         <material>
@@ -737,7 +767,8 @@
       </visual>
     </link>
     <joint name='HipFrontDer' type='revolute'>
-      <pose relative_to='base_link'>-0.068594000000000002 -0.13270000000000001 0.072321999999999997 0 0 0</pose>
+      <pose relative_to='base_link'>-0.068594000000000002 -0.13270000000000001 0.072321999999999997
+        0 0 0</pose>
       <parent>base_link</parent>
       <child>FrontDer_1</child>
       <axis>
@@ -773,12 +804,13 @@
         <geometry>
           <mesh>
             <scale>0.001 0.001 0.001</scale>
-            <uri>file:///home/devuser/sinfonia/Documents/repos_varios/naranjelio_ws/install/naranjelio_description/share/naranjelio_description/meshes/FrontDer_1.stl</uri>
+            <uri>
+              /meshes/FrontDer_1.stl</uri>
           </mesh>
         </geometry>
         <surface>
           <contact>
-            <ode/>
+            <ode />
           </contact>
           <friction>
             <ode>
@@ -793,7 +825,8 @@
         <geometry>
           <mesh>
             <scale>0.001 0.001 0.001</scale>
-            <uri>file:///home/devuser/sinfonia/Documents/repos_varios/naranjelio_ws/install/naranjelio_description/share/naranjelio_description/meshes/FrontDer_1.stl</uri>
+            <uri>
+              /meshes/FrontDer_1.stl</uri>
           </mesh>
         </geometry>
         <material>
@@ -843,12 +876,13 @@
         <geometry>
           <mesh>
             <scale>0.001 0.001 0.001</scale>
-            <uri>file:///home/devuser/sinfonia/Documents/repos_varios/naranjelio_ws/install/naranjelio_description/share/naranjelio_description/meshes/FemurFrontDer_1.stl</uri>
+            <uri>
+              /meshes/FemurFrontDer_1.stl</uri>
           </mesh>
         </geometry>
         <surface>
           <contact>
-            <ode/>
+            <ode />
           </contact>
           <friction>
             <ode>
@@ -863,7 +897,8 @@
         <geometry>
           <mesh>
             <scale>0.001 0.001 0.001</scale>
-            <uri>file:///home/devuser/sinfonia/Documents/repos_varios/naranjelio_ws/install/naranjelio_description/share/naranjelio_description/meshes/FemurFrontDer_1.stl</uri>
+            <uri>
+              /meshes/FemurFrontDer_1.stl</uri>
           </mesh>
         </geometry>
         <material>
@@ -877,7 +912,8 @@
       </visual>
     </link>
     <joint name='FemurTibiaFrontDer' type='revolute'>
-      <pose relative_to='FemurFrontDer_1'>-0.0088999999999999999 0.076393000000000003 -0.037269999999999998 0 0 0</pose>
+      <pose relative_to='FemurFrontDer_1'>-0.0088999999999999999 0.076393000000000003
+        -0.037269999999999998 0 0 0</pose>
       <parent>FemurFrontDer_1</parent>
       <child>TibiaLowFrontDer_1</child>
       <axis>
@@ -913,12 +949,13 @@
         <geometry>
           <mesh>
             <scale>0.001 0.001 0.001</scale>
-            <uri>file:///home/devuser/sinfonia/Documents/repos_varios/naranjelio_ws/install/naranjelio_description/share/naranjelio_description/meshes/TibiaLowFrontDer_1.stl</uri>
+            <uri>
+              /meshes/TibiaLowFrontDer_1.stl</uri>
           </mesh>
         </geometry>
         <surface>
           <contact>
-            <ode/>
+            <ode />
           </contact>
           <friction>
             <ode>
@@ -933,7 +970,8 @@
         <geometry>
           <mesh>
             <scale>0.001 0.001 0.001</scale>
-            <uri>file:///home/devuser/sinfonia/Documents/repos_varios/naranjelio_ws/install/naranjelio_description/share/naranjelio_description/meshes/TibiaLowFrontDer_1.stl</uri>
+            <uri>
+              /meshes/TibiaLowFrontDer_1.stl</uri>
           </mesh>
         </geometry>
         <material>
@@ -947,7 +985,8 @@
       </visual>
     </link>
     <joint name='Revolute 50' type='revolute'>
-      <pose relative_to='TibiaLowFrontDer_1'>-0.0054999999999999997 0.019238000000000002 0.00547 0 0 0</pose>
+      <pose relative_to='TibiaLowFrontDer_1'>-0.0054999999999999997 0.019238000000000002 0.00547 0 0
+        0</pose>
       <parent>TibiaLowFrontDer_1</parent>
       <child>TibiaHighFrontDer_1</child>
       <axis>
@@ -983,12 +1022,13 @@
         <geometry>
           <mesh>
             <scale>0.001 0.001 0.001</scale>
-            <uri>file:///home/devuser/sinfonia/Documents/repos_varios/naranjelio_ws/install/naranjelio_description/share/naranjelio_description/meshes/TibiaHighFrontDer_1.stl</uri>
+            <uri>
+              /meshes/TibiaHighFrontDer_1.stl</uri>
           </mesh>
         </geometry>
         <surface>
           <contact>
-            <ode/>
+            <ode />
           </contact>
           <friction>
             <ode>
@@ -1003,7 +1043,8 @@
         <geometry>
           <mesh>
             <scale>0.001 0.001 0.001</scale>
-            <uri>file:///home/devuser/sinfonia/Documents/repos_varios/naranjelio_ws/install/naranjelio_description/share/naranjelio_description/meshes/TibiaHighFrontDer_1.stl</uri>
+            <uri>
+              /meshes/TibiaHighFrontDer_1.stl</uri>
           </mesh>
         </geometry>
         <material>
@@ -1017,7 +1058,8 @@
       </visual>
     </link>
     <joint name='Revolute 49' type='revolute'>
-      <pose relative_to='TibiaHighFrontDer_1'>-0.0025000000000000001 -0.079874000000000001 0.029071 0 0 0</pose>
+      <pose relative_to='TibiaHighFrontDer_1'>-0.0025000000000000001 -0.079874000000000001 0.029071
+        0 0 0</pose>
       <parent>TibiaHighFrontDer_1</parent>
       <child>PivotTibiaFrontDer_1</child>
       <axis>
@@ -1040,12 +1082,12 @@
         <pose>-0.001692763655313276 -0.015707613994264649 0.0027701719731016432 0 0 0</pose>
         <mass>0.00077804272735592956</mass>
         <inertia>
-          <ixx>0</ixx>
-          <ixy>0</ixy>
-          <ixz>0</ixz>
-          <iyy>0</iyy>
-          <iyz>0</iyz>
-          <izz>0</izz>
+          <ixx>1.0e-06</ixx>
+          <ixy>0.0</ixy>
+          <ixz>0.0</ixz>
+          <iyy>1.0e-06</iyy>
+          <iyz>0.0</iyz>
+          <izz>1.0e-06</izz>
         </inertia>
       </inertial>
       <collision name='PivotTibiaFrontDer_1_collision'>
@@ -1053,12 +1095,13 @@
         <geometry>
           <mesh>
             <scale>0.001 0.001 0.001</scale>
-            <uri>file:///home/devuser/sinfonia/Documents/repos_varios/naranjelio_ws/install/naranjelio_description/share/naranjelio_description/meshes/PivotTibiaFrontDer_1.stl</uri>
+            <uri>
+              /meshes/PivotTibiaFrontDer_1.stl</uri>
           </mesh>
         </geometry>
         <surface>
           <contact>
-            <ode/>
+            <ode />
           </contact>
           <friction>
             <ode>
@@ -1073,7 +1116,8 @@
         <geometry>
           <mesh>
             <scale>0.001 0.001 0.001</scale>
-            <uri>file:///home/devuser/sinfonia/Documents/repos_varios/naranjelio_ws/install/naranjelio_description/share/naranjelio_description/meshes/PivotTibiaFrontDer_1.stl</uri>
+            <uri>
+              /meshes/PivotTibiaFrontDer_1.stl</uri>
           </mesh>
         </geometry>
         <material>
@@ -1087,7 +1131,8 @@
       </visual>
     </link>
     <joint name='HipFrontIzq' type='revolute'>
-      <pose relative_to='base_link'>0.067105999999999999 -0.13270000000000001 0.072321999999999997 0 0 0</pose>
+      <pose relative_to='base_link'>0.067105999999999999 -0.13270000000000001 0.072321999999999997 0
+        0 0</pose>
       <parent>base_link</parent>
       <child>FrontIzq_1</child>
       <axis>
@@ -1123,12 +1168,13 @@
         <geometry>
           <mesh>
             <scale>0.001 0.001 0.001</scale>
-            <uri>file:///home/devuser/sinfonia/Documents/repos_varios/naranjelio_ws/install/naranjelio_description/share/naranjelio_description/meshes/FrontIzq_1.stl</uri>
+            <uri>
+              /meshes/FrontIzq_1.stl</uri>
           </mesh>
         </geometry>
         <surface>
           <contact>
-            <ode/>
+            <ode />
           </contact>
           <friction>
             <ode>
@@ -1143,7 +1189,8 @@
         <geometry>
           <mesh>
             <scale>0.001 0.001 0.001</scale>
-            <uri>file:///home/devuser/sinfonia/Documents/repos_varios/naranjelio_ws/install/naranjelio_description/share/naranjelio_description/meshes/FrontIzq_1.stl</uri>
+            <uri>
+              /meshes/FrontIzq_1.stl</uri>
           </mesh>
         </geometry>
         <material>
@@ -1193,12 +1240,13 @@
         <geometry>
           <mesh>
             <scale>0.001 0.001 0.001</scale>
-            <uri>file:///home/devuser/sinfonia/Documents/repos_varios/naranjelio_ws/install/naranjelio_description/share/naranjelio_description/meshes/FemurFrontIzq_1.stl</uri>
+            <uri>
+              /meshes/FemurFrontIzq_1.stl</uri>
           </mesh>
         </geometry>
         <surface>
           <contact>
-            <ode/>
+            <ode />
           </contact>
           <friction>
             <ode>
@@ -1213,7 +1261,8 @@
         <geometry>
           <mesh>
             <scale>0.001 0.001 0.001</scale>
-            <uri>file:///home/devuser/sinfonia/Documents/repos_varios/naranjelio_ws/install/naranjelio_description/share/naranjelio_description/meshes/FemurFrontIzq_1.stl</uri>
+            <uri>
+              /meshes/FemurFrontIzq_1.stl</uri>
           </mesh>
         </geometry>
         <material>
@@ -1263,12 +1312,13 @@
         <geometry>
           <mesh>
             <scale>0.001 0.001 0.001</scale>
-            <uri>file:///home/devuser/sinfonia/Documents/repos_varios/naranjelio_ws/install/naranjelio_description/share/naranjelio_description/meshes/TibiaLowFrontIzq_1.stl</uri>
+            <uri>
+              /meshes/TibiaLowFrontIzq_1.stl</uri>
           </mesh>
         </geometry>
         <surface>
           <contact>
-            <ode/>
+            <ode />
           </contact>
           <friction>
             <ode>
@@ -1283,7 +1333,8 @@
         <geometry>
           <mesh>
             <scale>0.001 0.001 0.001</scale>
-            <uri>file:///home/devuser/sinfonia/Documents/repos_varios/naranjelio_ws/install/naranjelio_description/share/naranjelio_description/meshes/TibiaLowFrontIzq_1.stl</uri>
+            <uri>
+              /meshes/TibiaLowFrontIzq_1.stl</uri>
           </mesh>
         </geometry>
         <material>
@@ -1297,7 +1348,8 @@
       </visual>
     </link>
     <joint name='Revolute 45' type='revolute'>
-      <pose relative_to='TibiaLowFrontIzq_1'>0.0054999999999999997 0.019255000000000001 0.0054070000000000003 0 0 0</pose>
+      <pose relative_to='TibiaLowFrontIzq_1'>0.0054999999999999997 0.019255000000000001
+        0.0054070000000000003 0 0 0</pose>
       <parent>TibiaLowFrontIzq_1</parent>
       <child>TibiaHighFrontIzq_1</child>
       <axis>
@@ -1333,12 +1385,13 @@
         <geometry>
           <mesh>
             <scale>0.001 0.001 0.001</scale>
-            <uri>file:///home/devuser/sinfonia/Documents/repos_varios/naranjelio_ws/install/naranjelio_description/share/naranjelio_description/meshes/TibiaHighFrontIzq_1.stl</uri>
+            <uri>
+              /meshes/TibiaHighFrontIzq_1.stl</uri>
           </mesh>
         </geometry>
         <surface>
           <contact>
-            <ode/>
+            <ode />
           </contact>
           <friction>
             <ode>
@@ -1353,7 +1406,8 @@
         <geometry>
           <mesh>
             <scale>0.001 0.001 0.001</scale>
-            <uri>file:///home/devuser/sinfonia/Documents/repos_varios/naranjelio_ws/install/naranjelio_description/share/naranjelio_description/meshes/TibiaHighFrontIzq_1.stl</uri>
+            <uri>
+              /meshes/TibiaHighFrontIzq_1.stl</uri>
           </mesh>
         </geometry>
         <material>
@@ -1367,7 +1421,8 @@
       </visual>
     </link>
     <joint name='Revolute 46' type='revolute'>
-      <pose relative_to='TibiaHighFrontIzq_1'>0.0025000000000000001 -0.079874000000000001 0.029071 0 0 0</pose>
+      <pose relative_to='TibiaHighFrontIzq_1'>0.0025000000000000001 -0.079874000000000001 0.029071 0
+        0 0</pose>
       <parent>TibiaHighFrontIzq_1</parent>
       <child>PivotTibiaFrontIzq_1</child>
       <axis>
@@ -1390,12 +1445,12 @@
         <pose>0.0016921596049667279 -0.015756854381915101 0.0027788543819848438 0 0 0</pose>
         <mass>0.00077804272735592956</mass>
         <inertia>
-          <ixx>0</ixx>
-          <ixy>0</ixy>
-          <ixz>0</ixz>
-          <iyy>0</iyy>
-          <iyz>0</iyz>
-          <izz>0</izz>
+          <ixx>1.0e-06</ixx>
+          <ixy>0.0</ixy>
+          <ixz>0.0</ixz>
+          <iyy>1.0e-06</iyy>
+          <iyz>0.0</iyz>
+          <izz>1.0e-06</izz>
         </inertia>
       </inertial>
       <collision name='PivotTibiaFrontIzq_1_collision'>
@@ -1403,12 +1458,13 @@
         <geometry>
           <mesh>
             <scale>0.001 0.001 0.001</scale>
-            <uri>file:///home/devuser/sinfonia/Documents/repos_varios/naranjelio_ws/install/naranjelio_description/share/naranjelio_description/meshes/PivotTibiaFrontIzq_1.stl</uri>
+            <uri>
+              /meshes/PivotTibiaFrontIzq_1.stl</uri>
           </mesh>
         </geometry>
         <surface>
           <contact>
-            <ode/>
+            <ode />
           </contact>
           <friction>
             <ode>
@@ -1423,7 +1479,8 @@
         <geometry>
           <mesh>
             <scale>0.001 0.001 0.001</scale>
-            <uri>file:///home/devuser/sinfonia/Documents/repos_varios/naranjelio_ws/install/naranjelio_description/share/naranjelio_description/meshes/PivotTibiaFrontIzq_1.stl</uri>
+            <uri>
+              /meshes/PivotTibiaFrontIzq_1.stl</uri>
           </mesh>
         </geometry>
         <material>
@@ -1436,9 +1493,34 @@
         </material>
       </visual>
     </link>
-    <plugin name='gz_ros2_control::GazeboSimROS2ControlPlugin' filename='gz_ros2_control-system'>
-      <parameters>/home/devuser/sinfonia/Documents/repos_varios/naranjelio_ws/install/naranjelio_description/share/naranjelio_description/config/ros2_controllers.yaml</parameters>
-      <update_rate>100</update_rate>
+    <plugin filename="gz-sim-joint-position-controller-system"
+      name="gz::sim::systems::JointPositionController">
+      <joint_name>HipFrontDer</joint_name>
+      <topic>hip_front_der/cmd_pos</topic>
+      <p_gain>10.0</p_gain>
+      <i_gain>0.1</i_gain>
+      <d_gain>0.01</d_gain>
+      <i_max>1</i_max>
+      <i_min>-1</i_min>
+      <cmd_max>1000</cmd_max>
+      <cmd_min>-1000</cmd_min>
+    </plugin>
+
+    <plugin filename="gz-sim-joint-position-controller-system"
+      name="gz::sim::systems::JointPositionController">
+      <joint_name>FemurFrontDer</joint_name>
+      <topic>femur_front_der/cmd_pos</topic>
+      <p_gain>10.0</p_gain>
+      <i_gain>0.1</i_gain>
+      <d_gain>0.01</d_gain>
+      <i_max>1</i_max>
+      <i_min>-1</i_min>
+      <cmd_max>1000</cmd_max>
+      <cmd_min>-1000</cmd_min>
+    </plugin>
+
+    <plugin filename="gz-sim-joint-state-publisher-system"
+      name="gz::sim::systems::JointStatePublisher">
     </plugin>
   </model>
 </sdf>
