@@ -1,9 +1,9 @@
-# Bridge the Joint States (Gazebo -> ROS 2)
-- gz_topic_name: /world/default/model/naranjelio/joint_state
-  ros_topic_name: /joint_states
+# Joint States
+- topic_name: /joint_states
   ros_type_name: sensor_msgs/msg/JointState
   gz_type_name: gz.msgs.Model
   direction: GZ_TO_ROS
+
 
 # Bridge the Command Topics (ROS 2 -> Gazebo)
 - gz_topic_name: /hip_front_der/cmd_pos

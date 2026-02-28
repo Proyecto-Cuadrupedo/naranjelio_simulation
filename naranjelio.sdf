@@ -256,7 +256,7 @@
         </material>
       </visual>
     </link>
-    <joint name='Revolute 52' type='revolute'>
+    <joint name='Revolute_52' type='revolute'>
       <pose relative_to='TibiaLowBackDer_1'>-0.0054999999999999997 -0.019255000000000001
         0.0054070000000000003 0 0 0</pose>
       <parent>TibiaLowBackDer_1</parent>
@@ -276,7 +276,7 @@
       </axis>
     </joint>
     <link name='TibiaHighBackDer_1'>
-      <pose relative_to='Revolute 52'>0 0 0 0 0 0</pose>
+      <pose relative_to='Revolute_52'>0 0 0 0 0 0</pose>
       <inertial>
         <pose>-0.001476547826182686 0.03802032808698029 0.01383801812466783 0 0 0</pose>
         <mass>0.0058687334356246953</mass>
@@ -329,7 +329,7 @@
         </material>
       </visual>
     </link>
-    <joint name='Revolute 51' type='revolute'>
+    <joint name='Revolute_51' type='revolute'>
       <pose relative_to='TibiaHighBackDer_1'>-0.0025000000000000001 0.079874000000000001 0.029071 0
         0 0</pose>
       <parent>TibiaHighBackDer_1</parent>
@@ -349,7 +349,7 @@
       </axis>
     </joint>
     <link name='PivotTibiaBackDer_1'>
-      <pose relative_to='Revolute 51'>0 0 0 0 0 0</pose>
+      <pose relative_to='Revolute_51'>0 0 0 0 0 0</pose>
       <inertial>
         <pose>-0.001692763655314025 0.015756854381915181 0.0027788543819850242 0 0 0</pose>
         <mass>0.00077804272735592956</mass>
@@ -620,7 +620,7 @@
         </material>
       </visual>
     </link>
-    <joint name='Revolute 48' type='revolute'>
+    <joint name='Revolute_48' type='revolute'>
       <pose relative_to='TibiaLowBackIzq_1'>0.0054999999999999997 -0.019238000000000002 0.00547 0 0
         0</pose>
       <parent>TibiaLowBackIzq_1</parent>
@@ -640,7 +640,7 @@
       </axis>
     </joint>
     <link name='TIbiaHighBackIzq_1'>
-      <pose relative_to='Revolute 48'>0 0 0 0 0 0</pose>
+      <pose relative_to='Revolute_48'>0 0 0 0 0 0</pose>
       <inertial>
         <pose>0.001475943775834251 0.038020328086979728 0.01383801812466756 0 0 0</pose>
         <mass>0.0058687334356246953</mass>
@@ -693,7 +693,7 @@
         </material>
       </visual>
     </link>
-    <joint name='Revolute 47' type='revolute'>
+    <joint name='Revolute_47' type='revolute'>
       <pose relative_to='TIbiaHighBackIzq_1'>0.0025000000000000001 0.079874000000000001 0.029071 0 0
         0</pose>
       <parent>TIbiaHighBackIzq_1</parent>
@@ -713,7 +713,7 @@
       </axis>
     </joint>
     <link name='PivotTibiaBackIzq_1'>
-      <pose relative_to='Revolute 47'>0 0 0 0 0 0</pose>
+      <pose relative_to='Revolute_47'>0 0 0 0 0 0</pose>
       <inertial>
         <pose>0.00169215960496609 0.015707613994263792 0.0027701719731016978 0 0 0</pose>
         <mass>0.00077804272735592956</mass>
@@ -984,7 +984,7 @@
         </material>
       </visual>
     </link>
-    <joint name='Revolute 50' type='revolute'>
+    <joint name='Revolute_50' type='revolute'>
       <pose relative_to='TibiaLowFrontDer_1'>-0.0054999999999999997 0.019238000000000002 0.00547 0 0
         0</pose>
       <parent>TibiaLowFrontDer_1</parent>
@@ -1004,7 +1004,7 @@
       </axis>
     </joint>
     <link name='TibiaHighFrontDer_1'>
-      <pose relative_to='Revolute 50'>0 0 0 0 0 0</pose>
+      <pose relative_to='Revolute_50'>0 0 0 0 0 0</pose>
       <inertial>
         <pose>-0.0014765478261815619 -0.038020328086980477 0.013838018124667671 0 0 0</pose>
         <mass>0.0058687334356246953</mass>
@@ -1057,7 +1057,7 @@
         </material>
       </visual>
     </link>
-    <joint name='Revolute 49' type='revolute'>
+    <joint name='Revolute_49' type='revolute'>
       <pose relative_to='TibiaHighFrontDer_1'>-0.0025000000000000001 -0.079874000000000001 0.029071
         0 0 0</pose>
       <parent>TibiaHighFrontDer_1</parent>
@@ -1077,7 +1077,7 @@
       </axis>
     </joint>
     <link name='PivotTibiaFrontDer_1'>
-      <pose relative_to='Revolute 49'>0 0 0 0 0 0</pose>
+      <pose relative_to='Revolute_49'>0 0 0 0 0 0</pose>
       <inertial>
         <pose>-0.001692763655313276 -0.015707613994264649 0.0027701719731016432 0 0 0</pose>
         <mass>0.00077804272735592956</mass>
@@ -1347,7 +1347,7 @@
         </material>
       </visual>
     </link>
-    <joint name='Revolute 45' type='revolute'>
+    <joint name='Revolute_45' type='revolute'>
       <pose relative_to='TibiaLowFrontIzq_1'>0.0054999999999999997 0.019255000000000001
         0.0054070000000000003 0 0 0</pose>
       <parent>TibiaLowFrontIzq_1</parent>
@@ -1367,7 +1367,7 @@
       </axis>
     </joint>
     <link name='TibiaHighFrontIzq_1'>
-      <pose relative_to='Revolute 45'>0 0 0 0 0 0</pose>
+      <pose relative_to='Revolute_45'>0 0 0 0 0 0</pose>
       <inertial>
         <pose>0.0014759437758350149 -0.038020328086980089 0.013838018124668601 0 0 0</pose>
         <mass>0.0058687334356246953</mass>
@@ -1420,7 +1420,7 @@
         </material>
       </visual>
     </link>
-    <joint name='Revolute 46' type='revolute'>
+    <joint name='Revolute_46' type='revolute'>
       <pose relative_to='TibiaHighFrontIzq_1'>0.0025000000000000001 -0.079874000000000001 0.029071 0
         0 0</pose>
       <parent>TibiaHighFrontIzq_1</parent>
@@ -1440,7 +1440,7 @@
       </axis>
     </joint>
     <link name='PivotTibiaFrontIzq_1'>
-      <pose relative_to='Revolute 46'>0 0 0 0 0 0</pose>
+      <pose relative_to='Revolute_46'>0 0 0 0 0 0</pose>
       <inertial>
         <pose>0.0016921596049667279 -0.015756854381915101 0.0027788543819848438 0 0 0</pose>
         <mass>0.00077804272735592956</mass>
@@ -1496,10 +1496,9 @@
     <plugin filename="gz-sim-joint-position-controller-system"
       name="gz::sim::systems::JointPositionController">
       <joint_name>HipFrontDer</joint_name>
-      <topic>hip_front_der/cmd_pos</topic>
-      <p_gain>10.0</p_gain>
-      <i_gain>0.1</i_gain>
-      <d_gain>0.01</d_gain>
+      <p_gain>50</p_gain>
+      <i_gain>0.5</i_gain>
+      <d_gain>5.0</d_gain>
       <i_max>1</i_max>
       <i_min>-1</i_min>
       <cmd_max>1000</cmd_max>
@@ -1509,10 +1508,9 @@
     <plugin filename="gz-sim-joint-position-controller-system"
       name="gz::sim::systems::JointPositionController">
       <joint_name>FemurFrontDer</joint_name>
-      <topic>femur_front_der/cmd_pos</topic>
-      <p_gain>10.0</p_gain>
-      <i_gain>0.1</i_gain>
-      <d_gain>0.01</d_gain>
+      <p_gain>50</p_gain>
+      <i_gain>0.5</i_gain>
+      <d_gain>5.0</d_gain>
       <i_max>1</i_max>
       <i_min>-1</i_min>
       <cmd_max>1000</cmd_max>
@@ -1521,6 +1519,55 @@
 
     <plugin filename="gz-sim-joint-state-publisher-system"
       name="gz::sim::systems::JointStatePublisher">
+      <topic>joint_states</topic>
+    </plugin>
+
+    <plugin filename="gz-sim-joint-position-controller-system"
+      name="gz::sim::systems::JointPositionController">
+      <joint_name>FemurTibiaFrontDer</joint_name>
+      <p_gain>50</p_gain>
+      <i_gain>0.5</i_gain>
+      <d_gain>5.0</d_gain>
+      <i_max>1</i_max>
+      <i_min>-1</i_min>
+      <cmd_max>1000</cmd_max>
+      <cmd_min>-1000</cmd_min>
+    </plugin>
+
+    <plugin filename="gz-sim-joint-position-controller-system"
+      name="gz::sim::systems::JointPositionController">
+      <joint_name>HipFrontIzq</joint_name>
+      <p_gain>50</p_gain>
+      <i_gain>0.5</i_gain>
+      <d_gain>5.0</d_gain>
+      <i_max>1</i_max>
+      <i_min>-1</i_min>
+      <cmd_max>1000</cmd_max>
+      <cmd_min>-1000</cmd_min>
+    </plugin>
+
+    <plugin filename="gz-sim-joint-position-controller-system"
+      name="gz::sim::systems::JointPositionController">
+      <joint_name>FemurFrontIzq</joint_name>
+      <p_gain>50</p_gain>
+      <i_gain>0.5</i_gain>
+      <d_gain>5.0</d_gain>
+      <i_max>1</i_max>
+      <i_min>-1</i_min>
+      <cmd_max>1000</cmd_max>
+      <cmd_min>-1000</cmd_min>
+    </plugin>
+
+    <plugin filename="gz-sim-joint-position-controller-system"
+      name="gz::sim::systems::JointPositionController">
+      <joint_name>FemurTibiaFrontIzq</joint_name>
+      <p_gain>50</p_gain>
+      <i_gain>0.5</i_gain>
+      <d_gain>5.0</d_gain>
+      <i_max>1</i_max>
+      <i_min>-1</i_min>
+      <cmd_max>1000</cmd_max>
+      <cmd_min>-1000</cmd_min>
     </plugin>
   </model>
 </sdf>
